@@ -1,0 +1,16 @@
+.crm-dashboard { padding: 30px var(--gutter); background: #0b131e; min-height: 100vh; color: #fff; }
+.crm-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #2d3748; padding-bottom: 20px; }
+.crm-actions { display: flex; gap: 10px; }
+.btn-success { background: #38a169; color: #fff; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; font-weight: 600; }
+.btn-danger { background: #e53e3e; color: #fff; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; font-weight: 600; }
+.crm-stats { margin-bottom: 20px; }
+.stat-card { background: #131f30; padding: 20px; border-radius: 6px; border: 1px solid #2d3748; width: 200px; }
+.crm-filter-bar { margin-bottom: 20px; }
+.crm-filter-bar input { width: 100%; max-width: 400px; padding: 10px; background: #131f30; border: 1px solid #2d3748; color: #fff; border-radius: 4px; }
+.table-responsive { overflow-x: auto; }
+.crm-table { width: 100%; border-collapse: collapse; background: #131f30; border-radius: 6px; overflow: hidden; }
+.crm-table th, .crm-table td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #2d3748; font-size: 0.9rem; }
+.crm-table th { background: #1a2638; color: #a0aec0; }
+.badge { padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; background: #4a5568; }
+.badge.new { background: #3182ce; }
+.badge.completed { background: #38a169; }
